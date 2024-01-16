@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="svg/Spotify_icon.svg.webp">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="mainMenu">
+                <div class="logoMaintain">
+                    <div><img class="logo svg1 invert" src="svg/logo.svg" alt=""></div>
+                    <div class="close"><img class="svg invert" src="svg/close.svg" alt=""></div>
+                </div>
+                <div class="home">
+                    <img class="invert svg" src="svg/home.svg" alt="">
+                    <div>Home</div>
+                </div>
+                <div class="search">
+                    <img class="invert svg" src="svg/searh.svg" alt="">
+                    <div>Search</div>
+                </div>
+            </div>
+            <div class="library">
+                <div class="mainMenu2">
+                    <div class="home2">
+                        <img class="invert svg" src="svg/library.svg" alt="">
+                        <div>Your Library</div>
+                    </div>
+                    <div class="adding"><img class="invert svg2" src="svg/add.svg" alt=""></div>
+                </div>
+                <div class="songList">
+                    <ul>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="nav">
+                <div class="hamburgerFlex">
+                    <div class="hamburger">
+                        <img class="invert svg" src="svg/hamburger.svg" alt="">
+                    </div>
+                    <div class="arrow">
+                        <button class="arrows"><img class="svg2 invert" src="svg/left.svg" alt=""></button>
+                        <button class="arrows"><img class="svg2 invert" src="svg/right.svg" alt=""></button>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signup">Sign Up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h2>Spotify Playlists</h2>
+                <div class="cardContainer">
+                    <!-- <div class="card">
+                        <div data-folder="pika" class="play">
+                            <img src="play.svg" alt="">
+                        </div>
+                        <img src="card1.jpeg" alt="">
+                        <p id="p1">lofi beats</p>
+                        <p id="p2">chill beats, lofi vibes, new tracks every week...</p>
+                    </div>
+                    <div class="card">
+                        <div data-folder="pika2" class="play">
+                            <img src="play.svg" alt="">
+                        </div>
+                        <img src="card1.jpeg" alt="">
+                        <p id="p1">lofi beats</p>
+                        <p id="p2">chill beats, lofi vibes, new tracks every week...</p>
+                    </div>  -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="playbar playBar2">
+        <div class="songInfo">
+            SongName
+        </div>
+        <div class="playSetting">
+            <div class="songButtons">
+                <button class="playButtons previuos"><img class="previuos2 svg2 invert" src="svg/previuos.svg" alt=""></button>
+                <button class="playButtons pause"><img class="pause2 svg2 invert" src="svg/pause.svg" alt=""></button>
+                <button class="playButtons next"><img class="next2 svg2 invert" src="svg/next.svg" alt=""></button>
+            </div>
+            <div class="songTime">
+                <div class="currentTime">00:00</div>
+                <div class="seekBar">
+                    <div class="circle"></div>
+                </div>
+                <div class="duration">00:00</div>
+            </div>
+        </div>
+        <div class="songVolume">
+            <div class="svg invert">
+                <img class="vol" src="svg/sound.svg" alt="">
+            </div>
+            <div class="volume">
+                <input type="range" name="volume" id="slider">
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
